@@ -83,4 +83,4 @@ My Final Project for Introduction to Programming with C++ are two programs which
   22. Linear conversion factor		1m ≈ 3.28 ft
 
 
-
+![Picture of grinding material]
