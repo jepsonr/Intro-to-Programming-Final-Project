@@ -83,4 +83,14 @@ My Final Project for Introduction to Programming with C++ are two programs which
   22. Linear conversion factor		1m ≈ 3.28 ft
 
 
-![Picture of grinding material](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfh6zXYG7pJECsth2DVx44SImR4RPQfwTYwUqaSniz3nDAq6Xssw)
+![SAG Mill Grinding Material](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfh6zXYG7pJECsth2DVx44SImR4RPQfwTYwUqaSniz3nDAq6Xssw)
+
+Format: ![SAG Mill](http://photos.newswire.ca/images/download/20140206_C7934_PHOTO_EN_36350.jpg)
+
+Format: ![Flowtation Tank](http://cadillapp.com/assets/templates/1410898792/b34d27579fac962dd7ab8083f8e61f031376c555.jpg)
+
+
+Format: ![Alt Text](url)
+
+
+
