@@ -82,14 +82,15 @@ My Final Project for Introduction to Programming with C++ are two programs which
   21. When ρ of ref=ρ of water (@ 4°C): 	S.G.=ρ_material = ρ of material/ρ of water = ρ_material/1.00 
   22. Linear conversion factor		1m ≈ 3.28 ft
 
-
+###Images
+This is a picture of the grinding material in a SAG mill. One of the programs calculates the volume of this material
 ![SAG Mill Grinding Material](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfh6zXYG7pJECsth2DVx44SImR4RPQfwTYwUqaSniz3nDAq6Xssw)
 
+This is a picture of the outside of a SAG mil
 ![SAG Mill](http://photos.newswire.ca/images/download/20140206_C7934_PHOTO_EN_36350.jpg)
 
+This is one of the pieces of equipment that kept breaking down from not having a good management tool
 ![Flowtation Tank](http://cadillapp.com/assets/templates/1410898792/b34d27579fac962dd7ab8083f8e61f031376c555.jpg)
-
-![Flow chart of Mill](U:\Back up Folder 8-2015\CS-Computer Programming\Introduction to Programming using C++\Final Project)
 
 
 
