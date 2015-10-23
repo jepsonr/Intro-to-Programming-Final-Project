@@ -17,14 +17,14 @@ double circLoad ( double, double );
 int main()
 {
     //declare variables
-    double waterFeedRate = 0.0;
-    double oreFeedRate = 0.0;
-    const double WATER_PPG = 8.345; //PPG = pounds per gallon
-    const int ORE_PPT = 2000; //PPT = pounds per ton
-    double passingVolume = 0.0;
-    double totalWeight = 0.0;
-    double totalVolume = 0.0;
-    double unitWeight = 0.0; // mill coeffecient
+    double waterFeedRate    = 0.0;
+    double oreFeedRate      = 0.0;
+    const double WATER_PPG  = 8.345; //PPG = pounds per gallon
+    const int ORE_PPT       = 2000; //PPT = pounds per ton
+    double passingVolume    = 0.0;
+    double totalWeight      = 0.0;
+    double totalVolume      = 0.0;
+    double unitWeight       = 0.0; // mill coeffecient
     double circulatingLoad = 0.0;
 
     //enter input
@@ -55,7 +55,7 @@ int main()
          << unitWeight << " lbs per cuft"
          << endl << endl;
     cout << "Circulating Load: "
-         << circulatingLoad << " Short tons"
+         << circulatingLoad << " short tons"
          << endl << endl;
 
 
@@ -83,8 +83,8 @@ double weightFeed(double waterFeedRate, double oreFeedRate)
 double volumeFeed(double waterFeedRate, double oreFeedRate)
 {
     // define variable
-    double volume = 0.0;
-    const double CUBIC_FEET_PER_POUND = 156.064;
+    double volume                       = 0.0;
+    const double CUBIC_FEET_PER_POUND   = 156.064;
     //calculates the total volume of
     //water and ore entering the mill
     volume = waterFeedRate * 8.34 / 64.4 +
@@ -98,9 +98,9 @@ double volumeFeed(double waterFeedRate, double oreFeedRate)
 double circLoad ( double passingVolume, double unitWeight)
 {
     // define variable
-    double load = 0.0;
-    double MILL_DIAMETER = 28;
-    double MILL_LENGTH = 12;
+    double load             = 0.0;
+    double MILL_DIAMETER    = 28;
+    double MILL_LENGTH      = 12;
     //calculates the circulating load for
     //the SAG mill's total load in circulation
     load = unitWeight * 3.14159
