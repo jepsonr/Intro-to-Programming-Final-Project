@@ -122,8 +122,12 @@ My Final Project for Introduction to Programming with C++ consists of two progra
 
 ![Flowtation Tank](http://cadillapp.com/assets/templates/1410898792/b34d27579fac962dd7ab8083f8e61f031376c555.jpg)
 
-[SAG Mill Diagram](https://drive.google.com/a/swatc.edu/file/d/0B51DUErT4YwPY0lGX0FHdUozUEk/view)
+####This is a simplified flow chart for Part Three of the software development
+[Slurry Flow Chart](https://drive.google.com/a/swatc.edu/file/d/0B51DUErT4YwPY0lGX0FHdUozUEk/view)
 
+####This is a link to a PowerPoint presentation that gives an overview of my Final Project
 [PPT Presentation](https://drive.google.com/a/swatc.edu/file/d/0B51DUErT4YwPeUN5MWlqSzFNcDA/view)
 
 
+####Diagram for SAG Mill Grinding Material Volume program
+  [SAG Mill Diagram](https://drive.google.com/a/swatc.edu/file/d/0B51DUErT4YwPM1RpNzhfOWpmTUE/view)
