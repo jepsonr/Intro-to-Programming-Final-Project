@@ -122,7 +122,7 @@ My Final Project for Introduction to Programming with C++ consists of two progra
 
 ![Flowtation Tank](http://cadillapp.com/assets/templates/1410898792/b34d27579fac962dd7ab8083f8e61f031376c555.jpg)
 
-####This is a simplified flow chart for Part Three of the software development
+####This is a simplified flow chart for Circulating Load program
 [Slurry Flow Chart](https://drive.google.com/a/swatc.edu/file/d/0B51DUErT4YwPY0lGX0FHdUozUEk/view)
 
 ####This is a link to a PowerPoint presentation that gives an overview of my Final Project
