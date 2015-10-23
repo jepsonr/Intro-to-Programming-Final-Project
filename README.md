@@ -20,13 +20,38 @@ The GM wanted a realtime management tool for plant operations
   2. In the local mining culture, experience is valued over education, so highering a mining engineer was unlikely to happen
   
 ####The compromise
-The mine decided they needed a three stage program for their employees. They sponsored their GM to meet with me to see if the college could meet their needs. The first stage was for me to help the GM with the physics and mathematical requirements of his job first. The second stage was for to develop a basic math and science course for all employees. The third stage was the development of a intermediate and advanced Mining Math and Science courses for supervisors and managers. Three weeks after the funding was approved, the mine had a catastrophic shut down and never recovered.
+The mine decided they needed a three stage program for their employees. They sponsored their GM to meet with me to see if the college could meet their needs. The first stage was for me to help the GM with the physics and mathematical requirements of his job. The second stage was for me to develop a basic math and science course for all employees. The third stage was the development of a intermediate and advanced Mining Math and Science courses for supervisors and managers. Three weeks after the funding was approved, the mine had a catastrophic shut down and never recovered.
 
 ####The result
-I visited the mine several times so that the GM could to familiarize me with the mill's design and systems. The GM came to the college several times for his math and science training. Within these few meetings we developed an outline and curriculum for the courses. I started developing the mathematical models and analysis tools for the mill operations. When it all came to a hault, I shelved the project, but in the back of my mind I kept thinking. This cannot be the only mine in the world that has these challenges and if someone could create a program to do what we started it could be marketable software. A year later I started studying computer programming it made sense to start creating the software myself.
+I visited the mine several times so that the GM could familiarize me with the mill's design and systems. The GM came to the college several times for his math and science training. Within these few meetings we developed an outline for the curriculum of the courses. I also started developing the mathematical models and analysis tools for the management tool for the mill operations. When it all came to a hault, I shelved the project, but in the back of my mind I kept thinking, that this cannot be the only mine in the world that has these challenges and if someone could create a program to do what we started, it could be marketable software. A year later I started studying computer programming, so it made sense to start creating the software myself.
 
 ####Current status and future possibilities
-My Final Project for Introduction to Programming with C++ are two programs which complete the first two parts of the management tool we were developing. There are still 3 more parts to the management tool left. Each would take additional collaboration with a General Manager, but the basic formulas for part three are written. Part four was a long term data collection process that would lead to predictive and planning software. The last part would have been to create a generalized profit equation. The derivative of that equation could be used to manage feed rates and processing speeds that would maximize profits (marginal profit).
+My Final Project for Introduction to Programming with C++ consists of two programs which complete the first two parts of the management tool we were developing. There are still 3 more parts to the management tool left. Each would take additional collaboration with a General Manager, but the basic formulas for part three are written. Part four was a long term data collection process that would lead to predictive and planning software. The last part would have been to create a generalized profit equation. The derivative of that equation could be used to manage feed rates and processing speeds that would maximize profits (marginal profit).
+
+###Variable definitions
+  T	Short Tons			
+  Pm	Power Draw for a mill			
+  Cs	Critical Speed of a mill			
+  kw	Kilowatt coefficient for a mill			
+  Vp	Volumetric Loading (% of volumetric flow)			
+  As	Actual mill speed			
+  kws	Kilowatt coefficient for SAG mill			
+  Kwb	Kilowatt coefficient for Ball mill			
+  P	Pulp density
+  G	Specific gravity
+  D	Dilution Ratio (%Water:%Dry solids)
+  V	Volumetric Flow Rate (gpm)
+  F	Feed to Cyclones
+  U	Underflow
+  O	Overflow
+  B	Before the  sieve
+  A	After Sieve
+  R	Rougher
+  S	Scalping
+  C	Concentrate
+  T	Tailings
+  p	Passing
+
 
 ###Questions and inquiries for Phase 3: 
   1. What are the dimensions of P∙s  (percent of dry solids in the liquid times Specific gravity of the slurry)?
