@@ -10,16 +10,16 @@ using namespace std;
 
 //function prototypes
 
-double volumeGrindingMaterial (double, double, double );
+double volumeGrindingMaterial ( double, double, double );
 
 int main()
 {
     //declare variables (input is in feet and RPM)
-    double sagBallHeight = 0.0;
-    double RADIUS_MILL = 14.0;
-    double WIDTH_MILL = 12.07;
-    double actualMillSpd = 0.0;
-    double volGrindMat = 0.0;
+    double sagBallHeight    = 0.0;
+    double RADIUS_MILL      = 14.0;
+    double WIDTH_MILL       = 12.07;
+    double actualMillSpd    = 0.0;
+    double volGrindMat      = 0.0;
     //enter input measurements
     cout << "Measured grinding material height (in feet): ";
     cin >> sagBallHeight;
@@ -66,7 +66,7 @@ double volumeGrindingMaterial (double sagBallHeight,
     areaSubChd = areaSect - areaTrigl;
     vol = areaSubChd * WIDTH_MILL;
 
-    return vol;//	Max Volume (cu units) = 3716.1
+    return vol;//	Max Volume (cu units) < 3716.06
 }
 
 //function header
