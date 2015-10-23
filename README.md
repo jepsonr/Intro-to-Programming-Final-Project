@@ -28,7 +28,7 @@ I visited the mine several times so that the GM could familiarize me with the mi
 ####Current status and future possibilities
 My Final Project for Introduction to Programming with C++ consists of two programs which complete the first two parts of the management tool we were developing. There are still 3 more parts to the management tool left. Each would take additional collaboration with a General Manager, but the basic formulas for part three are written. Part four was a long term data collection process that would lead to predictive and planning software. The last part would have been to create a generalized profit equation. The derivative of that equation could be used to manage feed rates and processing speeds that would maximize profits (marginal profit).
 
-###Variable definitions
+####Variable definitions
   T	Short Tons			
   Pm	Power Draw for a mill			
   Cs	Critical Speed of a mill			
@@ -51,9 +51,17 @@ My Final Project for Introduction to Programming with C++ consists of two progra
   C	Concentrate
   T	Tailings
   p	Passing
+  T=Short tons∙volumetric loading
+  Tm=tons per volume of a mill
+  V=volume   
+  D=Diameter
+  w=mass of the slurry in 〖ft〗^3  
+  L=length of mill  
+  w=(weight of slurry in lbs)/〖ft〗^3 
+  kwr=power draw in kilowatts (rod mill)  
 
 
-###Questions and inquiries for Phase 3: 
+####Questions and inquiries for Phase 3: 
   1. What are the dimensions of P∙s  (percent of dry solids in the liquid times Specific gravity of the slurry)?
    	1. P∙s = %∙g/ml =  the volume of dry solids which requires the known G of the dry solids.
   	2. This raises a follow on question: 
@@ -77,35 +85,28 @@ My Final Project for Introduction to Programming with C++ consists of two progra
   	= yes
   14. Does the equation  PsubF∙GsubF=PsubU∙GsubU+PsubB∙GsubB hold.
   
-  Common conversion ratios, approximate values and formulas:
-  1. T=Short tons∙volumetric loading
-  2. Tm=tons per volume of a mill
-  3. V=volume   
-  4. D=Diameter
-  5. w=mass of the slurry in 〖ft〗^3  
-  6. L=length of mill  
-  7.  w=(weight of slurry in lbs)/〖ft〗^3 
-  8. kwr=power draw in kilowatts (rod mill)
-  9. Cs=Critical speed of a mill in rpm
-  10. %Cs=Actual mill speed in rpm (percent of criticla speed)
-  11 .Water weight and mass: 	62.42 lbs/〖ft〗^3 = 1.9385 slugs/〖ft〗^3 
-  12. Volume: 1 m^3  = 1000 〖dm〗^3 liters= 35.288 〖ft〗^3  = 1.305 〖yd〗^3
-  13. Weight/Mass of water 1 g/〖cm〗^3 = 1  g/ml (4 deg C at sea level)
+####Common conversion ratios, approximate values and formulas:
+
+  1. Cs=Critical speed of a mill in rpm
+  2. %Cs=Actual mill speed in rpm (percent of criticla speed)
+  3 .Water weight and mass: 	62.42 lbs/〖ft〗^3 = 1.9385 slugs/〖ft〗^3 
+  . Volume: 1 m^3  = 1000 〖dm〗^3 liters= 35.288 〖ft〗^3  = 1.305 〖yd〗^3
+  . Weight/Mass of water 1 g/〖cm〗^3 = 1  g/ml (4 deg C at sea level)
   								  = 1 kg/liter 
                                     = 1000 kg/m^3 = 1 tonnes/m^3 
                                     = 62.4 lbs/〖ft〗^3 
                                     = 8.34 (lbs)/gal
-  14. Conversion for water volume: 	7.473(lbs)/gal ≈ 1 lbs/〖ft〗^3   
-  15. Refined iron ore weight:		≈449.42 lbs/〖ft〗^3
-  16. Crushed iron ore weight	≈156.07 lbs/〖ft〗^3
-  17. SAG mill overflow		SG=2.6 (needs to be confirmed mathematically--direct measurement takes drying time)
-  18. Kilowatts per ton for rod mill:   	kwr=〖1.07〗^0.34 (6.3-5.4∙Vp)∙%Cs kw/ton=kw/Tr
-  19. Power draw:  			Prm=Tr∙kwr 
-  20. Critical Speed formula (rod mill):	
+  4. Conversion for water volume: 	7.473(lbs)/gal ≈ 1 lbs/〖ft〗^3   
+  5. Refined iron ore weight:		≈449.42 lbs/〖ft〗^3
+  6. Crushed iron ore weight	≈156.07 lbs/〖ft〗^3
+  7. SAG mill overflow		SG=2.6 (needs to be confirmed mathematically--direct measurement takes drying time)
+  8. Kilowatts per ton for rod mill:   	kwr=〖1.07〗^0.34 (6.3-5.4∙Vp)∙%Cs kw/ton=kw/Tr
+  9. Power draw:  			Prm=Tr∙kwr 
+  10. Critical Speed formula (rod mill):	
   				D(Csr)^2=76.63 (constant for a rod mill needs adjustment for a SAG mill)  
   				Cs=76.63/√D (critical speed isolated)
-  21. When ρ of ref=ρ of water (@ 4°C): 	S.G.=ρ_material = ρ of material/ρ of water = ρ_material/1.00 
-  22. Linear conversion factor		1m ≈ 3.28 ft
+  11. When ρ of ref=ρ of water (@ 4°C): 	S.G.=ρ_material = ρ of material/ρ of water = ρ_material/1.00 
+  12. Linear conversion factor		1m ≈ 3.28 ft
 
 ###Images
 ####This is a picture of the grinding material in a SAG mill. One of the programs calculates the volume of this material
