@@ -86,7 +86,7 @@ My Final Project for Introduction to Programming with C++ are two programs which
 This is a picture of the grinding material in a SAG mill. One of the programs calculates the volume of this material
 ![SAG Mill Grinding Material](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfh6zXYG7pJECsth2DVx44SImR4RPQfwTYwUqaSniz3nDAq6Xssw)
 
-This is a picture of the outside of a SAG mil
+This is a picture of the outside of a SAG mill. The other program calculates the circulating load on on this mill.
 ![SAG Mill](http://photos.newswire.ca/images/download/20140206_C7934_PHOTO_EN_36350.jpg)
 
 This is one of the pieces of equipment that kept breaking down from not having a good management tool
