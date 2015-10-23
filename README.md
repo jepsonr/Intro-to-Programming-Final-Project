@@ -11,7 +11,7 @@ The newly promoted general manager of a local iron mill faced several challeges 
   6. New (and current) employees needed more advanced skills in physics and math
 The GM wanted a realtime management tool for plant operations
 
-####Possible solutions a real time management tool:  
+####Possible solutions for a real time management tool:  
   1. One solution: install sensors costing as much as $50 million dollars in time and equipment
   2. A second solution: develop a mathematical model and statistical analysis tool
 
